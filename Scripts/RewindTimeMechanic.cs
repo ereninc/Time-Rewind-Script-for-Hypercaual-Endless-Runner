@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class BackinTimeMechanics : MonoBehaviour
 {
-
     [SerializeField] private bool isRewinding = false;
     List<PointInTime> pointsInTime;
     Rigidbody rb;
